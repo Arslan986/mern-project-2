@@ -11,6 +11,9 @@ connectDB()
     app.listen(`${process.env.PORT}` || 3000, () => {
       console.log(`My app is running on port ${process.env.PORT}`);
     });
+    app.get('/', (req, res) => {
+      res.send("hello world");
+    });
     app.on("error", (error) => {
       console.log("Error ", error);
       throw error;
