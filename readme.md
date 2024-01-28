@@ -1,63 +1,90 @@
-<!-- steps  -->
+<!-- steps 
 
-<!-- first step -->
+first step
 
-<!-- node package initialization -->
-<!-- run npm init   -->
+node package initialization
+run npm init  
 
-<!-- second step  -->
-
-git initialize config
-
-<!-- run git init -->
-
-<!-- third step  -->
+second step 
 
 git initialize config
 
-<!-- run git init -->
-<!-- create gitignore file  -->
-<!-- generate gitignore node js code from this website link : https://mrkandreev.name/snippets/gitignore-generator/#Node  -->
+run git init
 
-<!-- fourth step  -->
+third step 
 
-<!-- create public/temp/.gitkeep directory and files -->
+git initialize config
 
-<!-- fiver step  -->
+run git init
+create gitignore file 
+generate gitignore node js code from this website link : https://mrkandreev.name/snippets/gitignore-generator/#Node 
 
-<!-- create env file  -->
+fourth step 
 
-<!-- six step -->
+create public/temp/.gitkeep directory and files
 
-<!-- create src folder from current directory   -->
-<!-- create this files in src folder  -->
-<!-- files name = appp.js constants.js index.js -->
-<!-- optional  -->
-<!-- create files with git bash  -->
-<!-- run touch app.js constants.js index.js -->
+fiver step 
 
-<!-- seven step  -->
+create env file 
 
-<!-- add module base type in package.json  -->
-<!--"type": "module", -->
+six step
 
-<!-- eight step  -->
+create src folder from current directory  
+create this files in src folder 
+files name = appp.js constants.js index.js
+optional 
+create files with git bash 
+run touch app.js constants.js index.js
 
-<!-- install nodemon dev dependency package  -->
-<!--run  npm i -D nodemon -->
+seven step 
 
-<!-- nine step   -->
+add module base type in package.json 
+<!--"type": "module",
 
-<!-- nodemon configuration  -->
-<!-- add script command in pckage.json script key  -->
-<!-- "dev": "nodemon src/index.js", -->
+eight step 
 
-<!-- ten step -->
+install nodemon dev dependency package 
+<!--run  npm i -D nodemon
 
-<!-- create folders  -->
-<!-- create folders in src folder -->
-<!-- create db controlles middleware models routes utils -->
-<!-- optional  -->
-<!-- create files with git bash  -->
-<!-- mkdir db controlles middleware models routes utils -->
+nine step  
 
+nodemon configuration 
+add script command in pckage.json script key 
+"dev": "nodemon src/index.js",
+
+ten step
+
+create folders 
+create folders in src folder
+create db controlles middleware models routes utils
+optional 
+create files with git bash 
+mkdir db controlles middleware models routes utils
+
+eleven step 
+
+install prettier 
+npm  i -D prettier 
+configuration prettier 
+create .prettierrc file in main direcotry
+add this code in .prettierrc file
+{
+    "singleQuote": false,
+    "bracketSpacing": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "semi": true
+}
+create .prettierignore file in main direcotry
+add this code in prettierignore file
+./vs code 
+./node_modules
+./dist 
+
+*.env
+.env
+.env.* 
+
+
+
+-->
