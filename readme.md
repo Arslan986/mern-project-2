@@ -85,6 +85,20 @@ add this code in prettierignore file
 .env
 .env.* 
 
+eleven step 
 
+<!-- db connection create  -->
+add db credentials in .env file
+and add port name in .env file
+add this code in .env file
+PORT=8000
+MONGODB_URI=mongodb://localhost:27017
+and add DB_NAME=your db name in constants.js file
+<!-- install packages  -->
+dotenv
+express
+mongooos
+
+npm i express mongoose dotenv
 
 -->
